@@ -28,7 +28,7 @@ function reduceToTotal(sourceArray, startingPoint=0) {
 
 function reduceToAllTrue(sourceArray) {
   let allTrue = function(acc, curr){  
-        if(!!acc === true && !!curr=== true){
+        if(!acc === true && !curr=== true){
             return true;
         } else {
             return false;
